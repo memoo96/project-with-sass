@@ -1,0 +1,86 @@
+@media (min-width: 992px) {
+  .header .logo {
+    float: right;
+    text-align: right;
+  }
+}
+
+.header .toggler {
+  right: auto;
+  left: 15px;
+}
+
+@media (min-width: 992px) {
+  .header .navbar {
+    float: right;
+  }
+}
+
+.header .navbar li {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .header .navbar li {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .services .service_box {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .players .player_box {
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .players .player_box {
+    text-align: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .lorem .lorem_box {
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .lorem .lorem_box {
+    float: right;
+  }
+}
+
+.footer .gallery, .footer .info, .footer .contact {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .footer .gallery .img_box img {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .gallery .img_box .text {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .copyright .text, .footer .copyright .author {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .copyright .author {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=home-rtl.css.map */

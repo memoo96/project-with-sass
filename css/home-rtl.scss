@@ -1,0 +1,105 @@
+$maxMobile:"(max-width: 767px)";
+$maxSmall:"(max-width: 991px)";
+$minSmall:"(min-width: 768px)";
+$minMedium:"(min-width: 992px)";
+$minLarge:"(min-width: 1200px)";
+
+$floatLeft:right;
+$floatRight:left;
+
+$textRight:left;
+$textLeft:right;
+
+.header{
+    .logo{
+        @media #{$minMedium} {
+            float: $floatLeft;
+            text-align: $textLeft;
+        }
+    }
+    .toggler{
+        right: auto;
+        left: 15px;
+    }
+    .navbar{
+        @media #{$minMedium} {
+            float: $floatLeft;
+        }
+        li{
+            float: $floatLeft;
+            @media #{$maxMobile} {
+                text-align: $textLeft;
+            }
+        }
+    }
+}
+
+
+.services{
+    .service_box{
+        @media #{$minMedium} {
+            float: $floatLeft;
+        }
+    }
+}
+
+
+
+.players{
+    .player_box{
+       
+        @media #{$minSmall} {
+            float: $floatLeft;
+        }
+        @media #{$minMedium} {
+            text-align: $textLeft;
+        }
+    }
+}
+
+
+.lorem{
+    .lorem_box{
+        @media #{$minSmall} {
+            float: $floatLeft;
+        }
+        @media #{$minMedium} {
+            float: $floatLeft;
+        }
+    }
+}
+
+
+
+
+.footer{
+    .gallery, .info, .contact{
+        float: $floatLeft;
+    }
+    .gallery{
+        .img_box{
+            img{
+                @media #{$minSmall} {
+                    float: $floatLeft;
+                }
+            }
+            .text{
+                @media #{$minSmall} {
+                    float: $floatLeft;
+                }
+            }
+        }
+    }
+    .copyright{
+        .text, .author{
+            @media #{$minSmall} {
+                float: $floatLeft;
+            }
+        }
+        .author{
+            @media #{$minSmall} {
+                text-align: $textRight;
+            }
+        }
+    }
+}
